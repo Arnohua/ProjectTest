@@ -16,6 +16,7 @@ public class TestServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.setCharacterEncoding("utf-8");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html;charset=utf-8");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
